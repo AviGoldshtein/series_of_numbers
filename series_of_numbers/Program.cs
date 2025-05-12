@@ -10,20 +10,6 @@ namespace series_of_numbers
     {
         static bool running = true;
         static List<int> series = new List<int>();
-        //static Dictionary<string, Action> functions = new Dictionary<string, Action>
-        //    {
-        //        { "a", setSeriesInput },
-        //        { "b", showSeriesInOrder },
-        //        { "c", showSeriesInReverse },
-        //        { "d", showSeriesSorted },
-        //        { "e", showMax },
-        //        { "f", showMin },
-        //        { "g", showAverage },
-        //        { "h", showLen },
-        //        { "i", showSum },
-        //        { "j", exit }
-        //    };
-
 
         static void printList(List<int> list)
         {
